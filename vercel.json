@@ -5,36 +5,14 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist",
-        "cleanUrls": true
+        "distDir": "dist"
       }
     }
   ],
   "routes": [
     {
-      "src": "/vite.svg",
-      "dest": "/public/vite.svg",
-      "headers": {
-        "Content-Type": "image/svg+xml",
-        "Cache-Control": "public, max-age=31536000, immutable"
-      }
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "/public/assets/$1"
-    },
-    {
-      "src": "/(.*)", 
-      "dest": "/index.html",
-      "headers": {
-        "Cache-Control": "s-maxage=0, stale-while-revalidate=60"
-      }
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
