@@ -50,7 +50,7 @@ export default function App() {
     const obj={"input":userInput}
     console.log(obj)
       try{
-          const response = await fetch(" https://back-end-sql-generator-r0of04kxc-saad-mbts-projects.vercel.app/Generate_sql_query", {
+          const response = await fetch("https://back-end-sql-generator-r0of04kxc-saad-mbts-projects.vercel.app/Generate_sql_query",{
             method: "POST",
             headers: {
               "Content-Type": "application/json",
