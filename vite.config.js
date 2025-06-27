@@ -1,14 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/',
+  base: "/",
+  plugins: [react(),tailwindcss()],
   build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-    emptyOutDir: true,
-    sourcemap: true
+    minify: "esbuild",
+    outDir: "dist",
   },
   server: {
     port: 3000,

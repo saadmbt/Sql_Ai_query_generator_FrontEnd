@@ -1,8 +1,31 @@
-# React + Vite
+# SQL AI Query Generator 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern  web app that generates SQL queries from natural language using AI. Users must watch ads before each query generation, supporting a fair and free service. Built with React, Vite, and Tailwind CSS, with  secure environment variable management.
 
-Currently, two official plugins are available:
+## Features
+- 🧠 Generate SQL queries from plain English descriptions
+- ✨ Beautiful, responsive UI with Tailwind CSS
+- 🔒 Secure: No queries or personal data are stored
+- 💸 Free to use: Users watch ads before each query
+- 📋 Copy generated SQL to clipboard with one click
+- 📝 Explanation for each generated query
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Tech Stack
+- React (with functional components & hooks)
+- Vite (for fast dev/build)
+- Tailwind CSS (utility-first styling)
+- Google AdSense (ad monetization)
+- React Toastify (notifications)
+
+## Security & Privacy
+- No user data or queries are stored on the frontend.
+- Users must watch ads before each query generation to support the service.
+
+
+## License
+This project is for educational/demo purposes. For commercial use, ensure compliance with Google AdSense policies and your own backend/data privacy requirements.
+
+---
+
+**Enjoy generating SQL queries with AI!**
