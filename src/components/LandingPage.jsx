@@ -1,8 +1,9 @@
 import { FaRocket, FaBolt, FaShieldAlt } from "react-icons/fa";
 import sqlServer from "../assets/sql-server.png";
+import FAQ from "./FAQ";
 export default function LandingPage({ onStart }) {
     return (
-        <section className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-indigo-700 via-blue-500 to-purple-600 text-white p-6 relative overflow-hidden" role="main">
+        <section className="min-h-screen py-16 flex flex-col items-center justify-center bg-gradient-to-br from-indigo-700 via-blue-500 to-purple-600 text-white p-6 relative overflow-hidden" role="main">
             {/* Decorative Blobs */}
             <div className="absolute top-0 left-0 w-72 h-72 bg-purple-400 opacity-30 rounded-full blur-3xl -z-10 animate-pulse"></div>
             <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-300 opacity-20 rounded-full blur-3xl -z-10 animate-pulse"></div>
@@ -46,6 +47,7 @@ export default function LandingPage({ onStart }) {
                     <p className="text-white/90 text-base">Ads support the service. Your data is never stored or shared. Privacy first.</p>
                 </article>
             </section>
+            <FAQ />
             <footer className="mt-8 text-xs text-indigo-100 max-w-lg text-center bg-white/10 rounded-xl px-6 py-3 shadow-lg">
                 <p>
                     We respect your privacy. No queries or personal data are stored. Please use responsibly and do not submit sensitive information.
