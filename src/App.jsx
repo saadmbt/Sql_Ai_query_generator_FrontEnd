@@ -8,7 +8,7 @@ import "./index.css";
 import AdsOverlay from "./components/AdsOverlay";
 import Ads from "./components/Ads";
 import LandingPage from "./components/LandingPage";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 // sql-ai-query-generator
 
 export default function App() {

@@ -15,7 +15,6 @@ A modern  web app that generates SQL queries from natural language using AI. Use
 - React (with functional components & hooks)
 - Vite (for fast dev/build)
 - Tailwind CSS (utility-first styling)
-- Google AdSense (ad monetization)
 - React Toastify (notifications)
 
 ## Security & Privacy
