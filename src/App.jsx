@@ -8,7 +8,7 @@ import "./index.css";
 import AdsOverlay from "./components/AdsOverlay";
 import Ads from "./components/Ads";
 import LandingPage from "./components/LandingPage";
-
+import { Analytics } from "@vercel/analytics/next"
 // sql-ai-query-generator
 
 export default function App() {
@@ -114,6 +114,7 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-indigo-100 via-white to-teal-100 font-sans">
+      <Analytics />
       {showLanding ? (
         <LandingPage onStart={handleStart} />
       ) : (
